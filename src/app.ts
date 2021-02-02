@@ -1,8 +1,8 @@
 //    GrowPos
-//    Copyright (c) 2020 GrowPos
-//    http://GrowPos.co
+//    Copyright (c) 2021 MentalHealth
+//    http://MentalHealth.co
 //
-//    This file is part of GrowPos
+//    This file is part of MentalHealth
 //
 //    GrowPos is free software: you can redistribute it and/or modify
 //    it under the terms of the GNU General Public License as published by
@@ -21,7 +21,6 @@ import * as bodyParser from "body-parser";
 import { DataBaseService } from './dataBaseService';
 import { PeopleRoutes } from "./routes/peopleRoutes";
 import { ErrorHandler } from "./errorHandlerService";
-import { LogRoutes } from "./routes/logRoutes";
 
 class App {
 
