@@ -1,9 +1,11 @@
-//    GrowPos
+//    MentalHealth
 //    Copyright (c) 2021 MentalHealth
 //    http://MentalHealth.co
 //
-//    This file is part of MentalHealth
+//      Andrés Mauricio Martínez Hincapié
+//      Juan Pablo Ángel Vallejo
 //
+//    This file is part of MentalHealth
 //    GrowPos is free software: you can redistribute it and/or modify
 //    it under the terms of the GNU General Public License as published by
 //    the Free Software Foundation, either version 3 of the License, or
