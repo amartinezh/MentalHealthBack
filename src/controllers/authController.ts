@@ -5,7 +5,7 @@ import { Token } from "../models/interfaces/token.interface";
 import { ErrorGrowPos } from "../models/MentalHealth/error";
 import * as jwt from 'jsonwebtoken'
 import { ExternalPlatformDAOGrowPos } from "../repository/mentalHealthDB/external_platformDAO";
-//import { } from "express-jwt";
+import { } from "express-jwt";
 
 let people = new PeopleDAOGrowPos();
 let external_platform = new ExternalPlatformDAOGrowPos();

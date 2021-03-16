@@ -59,10 +59,11 @@ export class PeopleDAOGrowPos {
 
     public async getPeople() {
         try {
+            console.log("Obteniendo ");
             let con = await this.connection.getConnection()
             let query = await con.query(`SELECT
                         id,
-                        name,
+                        username,
                         '*****' as apppassword,
                         card,
                         visible

@@ -32,7 +32,7 @@ export class LogDAOGrowPos {
             let con = await this.connection.getConnection()
             let query = await con.query(`SELECT
                         id,
-                        name
+                        description
                         FROM log;`);
             con.release()
             return query
@@ -47,7 +47,7 @@ export class LogDAOGrowPos {
             let con = await this.connection.getConnection()
             let query = await con.query(`SELECT
                         id,
-                        name
+                        description
                         FROM log
                         WHERE ID = ?;`, [LogId]);
             con.release()

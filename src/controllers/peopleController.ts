@@ -4,7 +4,7 @@ import { PeopleDAOGrowPos } from "../repository/mentalHealthDB/peopleDAO";
 import { Token } from "../models/interfaces/token.interface";
 import { ErrorGrowPos } from "../models/MentalHealth/error";
 import * as jwt from 'jsonwebtoken'
-//import { } from "express-jwt";
+import { } from "express-jwt";
 
 let people = new PeopleDAOGrowPos();
 
@@ -27,6 +27,7 @@ export class PeopleController {
 
 	public async getPeople(req: Request, res: Response, next) {
 		try {
+			console.log("Aqui");
 			res.send(await people.getPeople());
 		} catch (error) {
 			let err: ErrorGrowPos = new Error(error);

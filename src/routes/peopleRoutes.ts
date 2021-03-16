@@ -35,7 +35,7 @@ export class PeopleRoutes {
         .post(auth,this.peopleController.insertPeople)
 
         app.route('/user/get')
-        .post(auth,this.peopleController.getPeople)
+        .post(this.peopleController.getPeople)
 
         app.route('/user/getById')
         .post(auth,this.peopleController.getPeopleById)
